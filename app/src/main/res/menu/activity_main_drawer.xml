@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+
+
+    <item android:title="Endgame">
+        <menu>
+            <item
+                    android:id="@+id/ironman"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Ironman"/>
+            <item
+                    android:id="@+id/ca"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="CapitanAmerica"/>
+            <item
+                    android:id="@+id/thor"
+                    android:icon="@drawable/comment"
+                    android:title="Thor"/>
+            <item
+                    android:id="@+id/hulk"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Hulk"/>
+            <item
+                    android:id="@+id/hawkeye"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Hawkeye"/>
+        </menu>
+    </item>
+
+</menu>
